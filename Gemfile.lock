@@ -81,7 +81,6 @@ GEM
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
-    duktape (2.7.0.0)
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5-x64-mingw32)
@@ -226,9 +225,9 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
-  duktape
   jbuilder (~> 2.5)
   jquery-rails
+  mini_racer
   puma (~> 3.11)
   rails (~> 5.2.4)
   sass-rails (~> 5.0)
